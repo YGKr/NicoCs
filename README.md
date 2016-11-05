@@ -42,9 +42,9 @@ Tags
 
 #### Example
 
-`NicoCs.Movie.MovieInfo movie = new NicoCs.Movie.MovieInfo();`
-`movie.GetMovieInfo("smhoge");`
-`System.Console.WriteLine(movie.UserID);`
+`NicoCs.Movie.MovieInfo movie = new NicoCs.Movie.MovieInfo();`  
+`movie.GetMovieInfo("smhoge");`  
+`System.Console.WriteLine(movie.UserID);`  
 
 ## NicoCs.Image.User
 
