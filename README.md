@@ -41,11 +41,10 @@ ChannelIconURL
 Tags  
 
 #### Example
-`
-NicoCs.Movie.MovieInfo movie = new NicoCs.Movie.MovieInfo();  
-movie.GetMovieInfo("smhoge");  
-System.Console.WriteLine(movie.UserID);  
-`
+`NicoCs.Movie.MovieInfo movie = new NicoCs.Movie.MovieInfo();`
+`movie.GetMovieInfo("smhoge");`
+`System.Console.WriteLine(movie.UserID);`
+
 ## NicoCs.Image.User
 
 ニコニコ静画のユーザーに関する情報を扱うことができます。
@@ -62,8 +61,7 @@ id
 NickName  
 
 #### Example
-`
-NicoCs.Image.User user = new NicoCs.Image.User();  
-user.GetUserData("11111");  
-System.Console.WriteLine(user.NickName);  
-`
+
+`NicoCs.Image.User user = new NicoCs.Image.User();`  
+`user.GetUserData("11111");`  
+`System.Console.WriteLine(user.NickName);`  
